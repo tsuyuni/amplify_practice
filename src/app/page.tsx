@@ -6,7 +6,7 @@ export default async function Home() {
   const res = await serverClient.graphql({
     query: listTodos,
     variables: {
-      limit: 10,
+      limit: 20,
     },
   });
 
